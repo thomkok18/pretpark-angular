@@ -1,0 +1,33 @@
+.attractie {
+  margin-bottom: 20px;
+}
+
+.attractie-img {
+  height: 300px;
+  width: 300px;
+}
+
+.attractie-img img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.read-more {
+  width: fit-content;
+  cursor: pointer;
+  background-color: #6c757d;
+  border-color: #6c757d;
+  padding: 6px 12px;
+  margin-top: 6px;
+  border-radius: 4px;
+}
+
+.read-more a {
+  color: #fff;
+}
+
+.read-more:hover {
+  background-color: #5a6268;
+  border-color: #545b62;
+}

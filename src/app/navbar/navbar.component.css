@@ -1,0 +1,41 @@
+nav {
+  display: flex;
+  align-items: center;
+  height: 60px;
+  background-color: #343a40;
+  padding: 8px 16px;
+}
+
+nav .nav-left, nav .nav-right {
+  display: flex;
+  align-items: center;
+  width: 50%;
+}
+
+nav .nav-right {
+  justify-content: flex-end;
+}
+
+nav .brand {
+  height: 100%;
+  width: 150px;
+  margin-right: 16px;
+}
+
+nav .nav-link {
+  height: 100%;
+  width: fit-content;
+  vertical-align: middle;
+  display: block;
+  padding: .5rem 1rem;
+  color: hsla(0,0%,100%,.5);
+}
+
+nav .nav-link:hover {
+  color: hsla(0,0%,100%,.75);
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+}
